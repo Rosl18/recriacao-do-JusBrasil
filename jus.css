@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <div entrar> */
+.entrar{
+  color: #000000CC;
+  position: fixed;
+  top: 4.5%;
+  left: 82%;
+  text-decoration: none;
+  font-family: 14px Roboto,system-ui,-apple-system,"Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif; 
+}
+.cadastre{
+     color: #ffffff;
+     position: fixed;
+     top: 2.5%;
+     left: 87%;
+     text-decoration: none;
+     background-color: #007A5F;
+     padding: 15px 15px  ;
+     border-radius: 5px;
+     font-family: 14px Roboto,system-ui,-apple-system,"Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+     transition: 0.3s;
+ }
+.cadastre:hover{
+    background-color: #016851;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(360px);
+}
+.btn-Hamb{
+    cursor: pointer;
+    position: fixed;
+    top: 4.1%;
+    left: 96.5%;
+    font-size: 25px;
+}
+
+/* </div entrar> */
+
+
+.logo-jusB{
+    position: fixed;
+    top: 16.8%;
+    left: 6.5%;
+    width: 150px;
+}
+.input-txt{
+    position: fixed;
+    top: 27%;
+    left: 22%;
+    width: 730px;
+    padding: 30px;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius: 10px ;
+    border-left: none;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    outline: none;
+}
+.input-txt::placeholder{
+    color: black;
+}
+.button-todos{
+    position: fixed;
+    top: 27%;
+    left: 10%;
+    width: 125px;
+    padding: 30px 0px 30px 0px ;
+    border-right: none;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    border-left: 2px solid gainsboro;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.separador{
+    position: fixed;
+    top: 29.5%;
+    left: 21%;
+    font-size: 35px;
+    color: gainsboro;
+}
+.seta-B{
+    position: fixed;
+    top: 31.8%;
+    left: 18%;
+    width: 12px;
+    cursor: pointer;
+}
+.separador1{
+    border: 1px solid black;
+    width: 45px;
+    height: 75px;
+    position: fixed;
+    top: 27%;
+    left: 19%;
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+}   
+.lupa-button{
+    position: fixed;
+    top: 30%;
+    left: 80%;
+    width: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 8px;
+} 
+.const-Process1{
+    position: fixed;
+    top: 50%;
+    left: 12%;
+    cursor: pointer;
+}
+.constPR-img1{
+    position: relative;
+    top: -23px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;  
+}     
+.constPR-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top:38px;
+    left: -3px;
+    text-decoration: none;
+    color: #007a5f;
+    text-align: center;
+}
+.jurispru-1{
+    position: fixed;
+    top: 50%;
+    left: 19%;
+    cursor: pointer;
+}
+.jurispru-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    left: 25px;
+    color: #007a5f;
+}
+.jurispru-img1{
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;
+}                
+.doutri-1{
+     position: fixed;
+    top: 50%;
+    left: 35%;
+    cursor: pointer;
+}
+.doutri-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    left: -29px;
+    color: #007a5f;
+}
+.doutri-img1{
+    font-size: 20px;
+    position: absolute;
+    top: -23px;
+    left: -30px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    color: #007a5f;
+    padding: 15px;
+    border-radius: 100px;
+}
+.pecas-1{
+    position: fixed;
+    top: 50%;
+    left: 42%;
+    cursor: pointer;
+}
+.pecas-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    left: 4px;
+    color: #007a5f;
+}
+.pecas-img1{
+    position: absolute;
+    top: -24px;
+    left: -8px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;
+}
+.legisl-1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+.legisl-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    color: #007a5f;
+}
+.legisl-img1{
+    position: absolute;
+    top: -25px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;
+}
+.model-1{
+    position: fixed;
+    top: 50%;
+    left: 57%;
+    cursor: pointer;
+}
+.model-titulo1{
+    font-size: 15px;
+    position: absolute;
+    top: 38px;
+    left: 37px;
+    color: #007a5f;
+}
+.model-img1{
+    position: relative;
+    top: -24.5px;
+    left: 32px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;
+}
+.advog-1{
+    position: fixed;
+    top: 50%;
+    left: 68%;
+    cursor: pointer;
+}
+.advog-titulo1{
+    font-size: 15px;
+    position: absolute;
+    left: 8px;
+    top: 38px;
+    color: #007a5f;
+}
+.advog-img1{
+    position: absolute;
+    top: -27px;
+    left: 12px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px; 
+}
+.diaOf-1{
+    position: fixed;
+    top: 50%;
+    left: 78%;
+    cursor: pointer;
+}
+.diaOf-titulo1{
+    font-size: 15px;
+    position: relative;
+    top: 38px;
+    color: #007a5f;
+    text-align: center;
+}
+.diaOf-img1{
+    position: absolute;
+    top: -27px;
+    left:15px;
+    width: 25px;
+    height: 25px;
+    background-color: #edf7f4;
+    padding: 15px;
+    border-radius: 100px;  
+}     
+.chatAD{
+    position: fixed;
+    top: 75%;
+    left: 8%;
+    cursor: pointer;
+}
+.msg-Cha{
+    position: relative;
+    top: -8px;
+    left: 10px;
+    color: black;
+}
+.last_part{
+    position: fixed;
+    top: 95%;
+    margin-left: 20px;
+}   
+.line-footer{
+    background: #0000002d;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    top: 92%;
+}
+.S-Jus{
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.S-Jus:hover{
+    text-decoration: underline;
+}
+.S-e-P{
+    position: fixed;
+    top: 95%;
+    left: 85%;
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.S-e-P:hover{
+    text-decoration: underline;
+}
+.T-e-U{
+    position: fixed;
+    top: 95%;
+    left: 75%;
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.T-e-U:hover{
+    text-decoration: underline;
+}
+.ApI{
+    position: relative;
+    left: 110px;
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.ApI:hover{
+    text-decoration: underline;
+}
+.S-Ass{
+    position: relative;
+    left: 70px;
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.S-Ass:hover{
+    text-decoration: underline;
+}
+.Ajuda{
+    position: relative;
+    left: 30px;
+    color: #000000;
+    opacity: 80%;
+    text-decoration: none;
+}
+.Ajuda:hover{
+    text-decoration: underline;
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
+

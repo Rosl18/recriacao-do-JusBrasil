@@ -1,0 +1,121 @@
+
+.submenu3{
+    position: absolute;
+    top: 38.5%;
+    left: 10%;
+    border-top: none;
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    width: 270px;
+    height: 370px;
+    padding: 10px 10px 0px 0px;
+    display: none;
+    background-color: #ffffff;
+}
+
+.submenu3 a:hover{
+    border-left: 2px solid green;
+    background-color: floralwhite;
+}
+
+.sub-todos{
+    text-decoration: none;
+    color: #373A3C;
+    font-size: 14px;
+    padding: 5px 210px 5px 20px
+}
+.artNot-sub{
+    position: absolute;
+    top: 12%;
+    font-size: 14px;
+}
+.sub-artNot{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 140px 5px 20px;
+}    
+.jurispru-sub{
+    position: absolute;
+    top: 21%;
+}
+.sub-jurispru{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 160px 5px 20px;
+    font-size: 14px;
+}
+.diarOfici-sub{
+  position: absolute;
+  top: 30%;
+}
+.sub-diarOfici{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 140px 5px 20px;
+    font-size: 14px;
+}
+.modelo-sub{
+ position: absolute;
+ top: 40%;
+} 
+.sub-modelo{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 200px 5px 20px;
+    font-size: 14px;
+}       
+.peca-sub{
+  position: absolute;
+  top: 50%;
+}
+.sub-peca{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 220px 5px 20px;
+    font-size: 14px;
+}
+.legisla-sub{
+   position: absolute;
+   top: 60%;
+}
+.sub-legisla{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 190px 5px 20px;
+    font-size: 14px;
+}
+.perfis-sub{
+    position: absolute;
+    top: 70%;
+}
+.sub-perfis{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 220px 5px 20px;
+    font-size: 14px;
+}
+.consuPro-sub{
+    position: absolute;
+    top: 80%;
+}
+.sub-consuPro{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 130px 5px 20px;
+    font-size: 14px;
+}
+.doutri-sub{
+  position: absolute;
+  top: 90%;
+}
+.sub-doutri{
+    text-decoration: none;
+    color: #373A3C;
+    padding: 5px 200px 5px 20px;
+    font-size: 14px;
+    
+}    
+

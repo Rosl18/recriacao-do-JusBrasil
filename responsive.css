@@ -1,0 +1,487 @@
+@media(max-width: 1100px){
+    .entrar{
+        display: flex!important;
+        position: fixed;
+        left: 79.8%;
+    }
+    .cadastre{
+        display: flex!important;
+        position: fixed;
+        left: 85.5%;
+    }
+    .input-txt{
+        width: 640px;
+    }
+    .menu-lateral{
+        position: absolute;
+        left: 66.5%;
+    }
+}
+
+@media(max-width: 992px){ 
+    .entrar{
+        display: flex!important;
+        position: fixed;
+        top: 4.5%;
+        left: 75%;
+    }
+    .cadastre{
+        display: flex!important;
+        position: fixed;
+        top: 2.5%;
+        left: 82%;
+    }
+    .btn-Hamb{
+        display: flex!important;
+        position: fixed;
+        left: 94.5%;
+    }
+    .input-txt{
+        display: flex!important;
+        width: 570px;
+    } 
+    .seta-B{
+        display: flex!important;
+        position: fixed;
+        left: 19%;
+    }
+    .const-Process1{
+        display: flex!important;
+        position: fixed;
+        left: 7%;
+    }
+    .jurispru-1{
+        display: flex!important;
+        position: fixed;
+        left: 14%;
+    }
+    .doutri-1{
+        display: flex!important;
+        position: fixed;
+        left: 32.5%;
+    }
+    .pecas-1{
+        display: flex!important;
+        position: fixed;
+        left: 40%;
+    }
+    .legisl-1{
+        display: flex!important;
+        position: fixed;
+        left: 49%;
+    }
+    .model-1{
+        display: flex!important;
+        position: fixed;
+        left: 56%;
+    }
+    .S-e-P{
+        display: flex!important;
+        position: fixed;
+        left: 82%;
+    }
+    .T-e-U{
+        display: flex!important;
+        position: fixed;
+        left: 70%;
+    }
+    .menu-lateral{
+        position: absolute;
+        left: 63%;
+    }    
+}    
+   
+@media(max-width: 768px){
+    body{
+        display: flex!important;
+        height: 850px;
+    }
+    .logo-jusB{
+        display: flex!important;
+        position: absolute;
+    }
+    .entrar{
+        display: none!important;
+    }
+    .cadastre{
+        display: none!important;
+    }
+    .input-txt{
+        display: flex!important;
+        width: 450px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-left: 2px solid gainsboro;
+        position: absolute;
+        top: 27%;
+        left: 13%;
+    } 
+    .lupa-button{
+        display: flex!important;
+        position: absolute;
+        left: 72%;
+    }
+    .separador1{
+        display: none!important;
+        position: absolute;
+    }
+    .seta-B{
+        display: none!important;
+        position: absolute;
+    }
+    .button-todos{
+        display: none!important;
+        position: absolute;
+    }
+    .const-Process1{
+        position: absolute;
+        top: 46%;
+        left: 15%;
+        cursor: pointer;
+    }
+    .jurispru-1{
+        position: absolute;
+        top: 46%;
+        left: 26%;
+        cursor: pointer;
+    }
+    .doutri-1{
+        position: absolute;
+        top: 46%;
+        left: 52%;
+        cursor: pointer;
+    }
+    .pecas-1{
+        position:absolute;
+        top: 46%;
+        left: 65%;
+        cursor: pointer;
+    }
+    .legisl-1{
+        position: absolute;
+        top: 63%;
+        left: 15%;;
+        cursor: pointer;
+    }
+    .model-1{
+        position: absolute;
+        top: 63%;
+        left: 27%;
+        cursor: pointer;
+    }
+    .advog-1{
+        position: absolute;
+        top: 63%;
+        left: 46.5%;
+        cursor: pointer;
+    }
+    .diaOf-1{
+        position: absolute;
+        top: 63%;
+        left: 62%;
+        cursor: pointer;
+    }
+    .chatAD{
+        display: flex!important;
+        position: absolute;
+        top: 80%;
+    }
+    .msg-Cha{
+        display: flex!important;
+        position: relative;
+        top: 1.9px;
+        left: 10px;
+    }  
+    .last_part{
+        display: flex!important;
+        position: absolute;
+    }
+    .line-footer{
+        display: flex!important;
+        position: absolute;
+    }
+    .S-Jus{
+        display: flex!important;
+        color: #9e9e9e;
+    }
+    .S-Jus:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .Ajuda{
+        display: flex!important;
+        position: absolute;
+        left: 0px;
+        top: 32px;
+        color: #9e9e9e;
+    }
+    .Ajuda:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .S-Ass{
+        display: flex!important;
+        position: absolute;
+        left: 0px;
+        top: 68px;
+        color: #9e9e9e;
+    }
+    .S-Ass:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .ApI{
+        display: flex!important;
+        position: absolute;
+        left: 0px;
+        top: 103px;
+        color: #9e9e9e;
+    }
+    .ApI:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .T-e-U{
+        display: flex!important;
+        position: absolute;
+        left: 0px;
+        top: 136px;
+        color: #9e9e9e;
+    }
+    .T-e-U:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .S-e-P{
+        display: flex!important;
+        position: relative;
+        left: -111.5px;
+        top: 169px;
+        color: #9e9e9e;
+    }
+    .S-e-P:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .menu-lateral{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    .aaaa{
+        display: flex!important;
+        position: absolute;
+        left: 5%; 
+    }
+    .close-butt{
+        display: flex!important;
+        position: absolute;
+        left: 95%;
+    }
+    .linha-1{
+        width: 100%;
+    }
+    .const-Process{
+        width: 600px;
+    }
+    .constPR-titulo{
+        display: flex!important;
+        position: relative;
+        left: 20px;
+     }
+    .constPR-frase{
+        display: flex!important;
+        position: relative;
+        left: 20px;
+    }    
+    .constPR-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .jurispru{
+        width: 600px;
+    }
+    .jurispru-titulo{
+        display: flex!important;
+        position: relative;
+        left: 20px;
+    }
+    .jurispru-frase{
+        display: flex!important;
+        position: relative;
+        left: 20px;
+    }
+    .jurispru-img{
+        display: flex!important;
+        position: absolute;
+        top: 11px;
+        left: 4%;
+    }
+    .doutrina{
+        width: 600px;
+    }
+    .doutri-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+   .doutri-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+   }
+    .doutri-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .diarioOficiais{
+        width: 600px;
+    }
+    .diariOf-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .diariof-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .diarioOF-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .pecas-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .pecas-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .pecas-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .modelo{
+        width: 600px;
+        position: absolute;
+        top: 38%;
+    }
+    .modelo-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .modelo-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .modelo-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .legislacao{
+        width: 600px;
+        position: absolute;
+        top: 44%;
+    }
+    .legisl-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .legisl-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .legisl-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%;
+    }
+    .artigo{
+        width: 600px;
+        position: absolute;
+        top: 51%;
+    }
+    .artigo-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .artigo-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .artigo-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%
+    }
+    .noticia{
+        width: 600px;
+        position: absolute;
+        top: 58%;
+    }
+    .noticia-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .noticia-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .noticia-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%
+    }
+    .eupa{
+        width: 600px;
+        position: absolute;
+        top: 65%;
+    }
+    .eupa-titulo{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .eupa-frase{
+        display: flex!important;
+        position: relative;
+        left: 10px;
+    }
+    .eupa-img{
+        display: flex!important;
+        position: absolute;
+        top: 15px;
+        left: 4%
+    }
+    .linha-2{
+        width: 100%;
+    }
+    .linha-3{
+        width: 100%;
+    }
+}   

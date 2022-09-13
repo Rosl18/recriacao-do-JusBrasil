@@ -1,0 +1,453 @@
+.menu-lateral{
+    z-index: 8000;
+    background: #ffffff;
+    width: 364px;
+    height: 1200px;
+    color: #3D4D5C;
+    position: absolute;
+    left: 71.6%;
+    display: none;
+   }
+   .aaaa{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    font: Roboto, system-ui, -apple-system, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+   }
+   .close-butt{
+   position: absolute;
+   top: 1.7%;
+   left: 86%;
+   font-size: 20px;
+   cursor: pointer;
+   }
+  .close-butt:active{
+    color: blue;
+  }
+   .linha-1{
+    background-color:gainsboro;
+    height: 2px;
+    width:364px;
+    position: absolute;
+    top: 5%;
+   }
+  
+  
+   .const-Process{
+    position: absolute;
+    top: 6%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 71px;
+   }
+   .const-Process:hover{
+    background-color: #a3fde933;
+   }
+ 
+   .constPR-frase{
+    margin-top:15px;
+    margin-left: 0px;
+    color: black;
+    font-size: 14px;
+   }
+   .constPR-titulo{
+    margin-left: 0px;
+    color: #262f38;
+   }
+   .constPR-img{
+   position: absolute;
+   top: 25%;
+   right:84.5%;
+   height: 30px;
+   width: 30px;
+   background-color: #C9E9DF;
+   padding: 8px 5px 5px 10px ;
+   border-radius: 100px;
+  }
+  
+  
+  .jurispru{
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 71px;
+   }
+   .jurispru:hover{
+    background-color: #a3fde933;
+   }
+   .jurispru-frase{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+   }
+   .jurispru-titulo{
+    text-decoration: none;
+    color: #262f38;
+   }
+   .jurispru-img{
+    position: absolute;
+    top: 32%;
+    right: 85.5%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+   }
+   
+   
+   .doutrina{
+    position: absolute;
+    top: 19.2%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+   }
+   .doutrina:hover{
+    background-color: #a3fde933;
+   }
+   .doutri-frase{
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    color: black;
+    right: 10px;
+   }
+   .doutri-titulo{
+    color: #262f38;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+   }
+   .doutri-img{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 32%;
+    right: 85%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+   }
+ 
+   
+   
+   .diarioOficiais{
+    position: absolute;
+    top: 25.5%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+   }
+   .diarioOficiais:hover{
+    background-color: #a3fde933;
+   }
+   .diariOf-titulo{
+    color: #262f38;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+   }
+   .diariof-frase{
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    color: black;
+    right: 10px;
+   }
+   .diarioOF-img{
+    position: absolute;
+    top: 35%;
+    right: 85%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+   }
+
+   .pecas{
+    position: absolute;
+    top: 31.5%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+   }
+   .pecas:hover{
+    background-color: #a3fde933;
+   }
+   .pecas-frase{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    right: 10px;
+    margin-top: 10px;
+   }
+   .pecas-titulo{
+    text-decoration: none;
+    color: #262f38;
+    position: relative;
+    right: 10px;
+   }
+   .pecas-img{
+    position: absolute;
+    top: 32%;
+    right: 85%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+.modelo{
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+}
+.modelo:hover{
+    background-color: #a3fde933;
+}
+.modelo-titulo{
+    text-decoration: none;
+    color: #262f38;
+    position: relative;
+    right: 10px;
+}
+.modelo-frase{
+    position: relative;
+    right: 10px;
+    color: black;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.modelo-img{
+    position: absolute;
+    top: 32%;
+    right: 85%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+
+.legislacao{
+    position: absolute;
+    top: 47%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+}
+.legislacao:hover{
+    background-color: #a3fde933;
+}
+.legisl-titulo{
+    color: #262f38;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+}
+.legisl-frase{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    right: 10px;
+    margin-top: 10px;
+}
+.legisl-img{
+    width: 25px;
+    position: absolute;
+    top: 30%;
+    right: 84.5%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+
+.artigo{
+    position: absolute;
+    top: 53.5%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+}
+.artigo:hover{
+    background-color: #a3fde933;
+}
+.artigo-titulo{
+    text-decoration: none;
+    color: #262f38;
+    position: relative;
+    right: 10px;
+}
+.artigo-frase{
+    font-size: 14px;
+    position: relative;
+    color: black;
+    right: 10px;
+    margin-top: 10px;
+}
+.artigo-img{
+    position: absolute;
+    top: 30%;
+    right: 84.5%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+.noticia{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+}
+.noticia:hover{
+    background-color: #a3fde933;
+}
+.noticia-titulo{
+    color: #262f38;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+}
+.noticia-frase{
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.noticia-img{
+    width: 25px;
+    position: absolute;
+    top: 30%;
+    right: 84%;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+.eupa{
+    position: absolute;
+    top: 67%;
+    left: 0%;
+    cursor: pointer;
+    padding: 10px 50px 10px 84px;
+}
+.eupa:hover{
+    background-color: #a3fde933;
+}
+.eupa-titulo{
+    text-decoration: none;
+    color: #262f38;
+    position: relative;
+    right: 10px;
+}
+.eupa-frase{
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.eupa-img{
+    position: absolute;
+    top: 35%;
+    right: 85% ;
+    background-color: #C9E9DF;
+    height: 30px;
+    width: 30px;
+    padding: 8px 5px 5px 10px ;
+    border-radius: 100px;
+}
+
+.linha-2{
+    background-color: gainsboro;
+    height: 2px;
+    width:364px;
+    position: absolute;
+    top: 75%; 
+}
+.submenu{
+    position: absolute;
+    top: 77%;
+    left: 20px;
+    
+}
+.so-jus,.carreira,.newle{
+    text-decoration: none;
+    color: black;
+}
+.carreira{
+    position: relative;
+    top: 20px;
+}
+.newle{
+    position: relative;
+    top: 40px;
+}
+
+.linha-3{
+    background-color: gainsboro;
+    height: 2px;
+    width:364px;
+    position: absolute;
+    top: 86%; 
+}
+
+.submenu1{
+    position: absolute;
+    top: 88%;
+    left: 20px;
+}
+.aju-supor,.term-uso,.poli-priv,.prote-dados{
+    text-decoration: none;
+    color: black;
+}
+.term-uso{
+    position: relative;
+    top: 20px;
+}
+.poli-priv{
+    position: relative;
+    top: 40px;
+}
+.prote-dados{
+    position: relative;
+    top: 60px;
+}
+
+.gradient{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+     to top,
+     rgba(0, 0, 0, 0.100) 50%,
+     rgba(0, 0, 0, 0.100) 50%,
+     rgba(0, 0, 0, 0.100) 50%
+    ); 
+    height: 1200px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+ 
